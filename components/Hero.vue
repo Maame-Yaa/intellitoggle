@@ -1,7 +1,9 @@
 <template>
   <section class="relative isolate overflow-hidden">
-    <div class="absolute inset-0 -z-10 bg-[linear-gradient(180deg,#42389E_0%,#332FA0_45%,#2D2FA1_60%,#1F1F7A_100%)]"></div>
-    <div class="container pt-[154px] pb-[120px] text-center text-white">
+<div
+  class="absolute inset-0 -z-10
+         bg-[linear-gradient(-198deg,_transparent_0,_transparent_58%,_white_58%,_white_62%,_white_100%),linear-gradient(180deg,_#42389E_15%,_#332FA0_35%,_#2D2FA1_40%,_#1F1F7A_100%)]">
+</div>    <div class="container pt-[154px] pb-[120px] text-center text-white">
       <h1 class="mx-auto max-w-[1040px] font-bold leading-tight text-[44px] md:text-[64px]">
         <span class="block">The First
           <span

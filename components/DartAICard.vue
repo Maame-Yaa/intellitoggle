@@ -1,14 +1,24 @@
 <template>
-  <div class="rounded-2xl bg-white/10 ring-1 ring-white/10 backdrop-blur-sm p-6 md:p-7 shadow-xl">
-    <div class="mb-3 inline-flex h-10 w-10 items-center justify-center rounded-lg bg-white/15">
-      <span class="text-lg">{{ icon }}</span>
+  <div
+    class="flex flex-col items-center gap-[32px]
+           rounded-[12px] border border-[rgba(255,255,255,0.20)]
+           bg-[rgba(255,255,255,0.02)] p-6"
+  >
+    <div
+      class="inline-flex h-10 w-10 items-center justify-center
+             rounded-[10px] bg-[rgba(255,255,255,0.12)]"
+    >
+      <span class="text-lg leading-none">{{ icon }}</span>
     </div>
-    <h3 class="text-lg font-semibold leading-snug">
-      {{ title }}
-    </h3>
-    <p class="mt-2 text-white/85">
-      {{ copy }}
-    </p>
+
+    <div class="w-full text-center">
+      <h3 class="text-[18px] font-semibold leading-snug text-white">
+        {{ title }}
+      </h3>
+      <p class="mt-2 text-[14px] leading-snug text-white/85">
+        {{ copy }}
+      </p>
+    </div>
   </div>
 </template>
 
