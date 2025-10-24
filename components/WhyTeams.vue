@@ -78,7 +78,7 @@
       </p>
 
       <NuxtLink
-        to="/case-note"
+        to="#e"
         class="rounded-md bg-[#F9A71E] px-6 py-2 text-sm font-semibold text-[#1A1C3D]
                ring-1 ring-black/5 hover:bg-[#fbb840]"
       >

@@ -16,14 +16,14 @@
       </p>
       <div class="flex flex-col md:flex-row items-center justify-center gap-4 mt-4">
         <NuxtLink
-          to="/pricing"
+          to="#"
           class="rounded-md bg-[#FDBA00] hover:bg-[#e0a800] text-[#1A1C3D] font-semibold px-6 py-2.5 text-sm shadow-sm"
         >
           Start for $1/mo
         </NuxtLink>
 
         <NuxtLink
-          to="/early-access"
+          to="#"
           class="rounded-md border border-[#FDBA00] text-[#FDBA00] font-semibold px-6 py-2.5 text-sm hover:bg-[#FDBA00]/10"
         >
           Join AI Early Access

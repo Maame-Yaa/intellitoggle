@@ -9,5 +9,6 @@ export default defineNuxtConfig({
     },
     display: 'swap'
   },
-  nitro: { compatibilityDate: '2025-10-22' }
+  nitro: { compatibilityDate: '2025-10-22' },
+  
 })

@@ -31,7 +31,7 @@
         </p>
 
         <NuxtLink
-          to="/learn-more"
+          to="#"
           class="inline-flex items-center gap-2 mt-6 rounded-[8px]
                  bg-[#F9A71E] px-5 py-2 text-[#1A1C3D] font-semibold
                  shadow-[0_4px_6px_rgba(0,0,0,0.1)] hover:bg-[#f7b63b] transition"

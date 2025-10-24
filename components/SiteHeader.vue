@@ -17,16 +17,16 @@
           <NuxtLink to="/" class="text-white font-['DM Sans'] font-bold text-[20px] leading-none hover:text-white/80">
             Home
           </NuxtLink>
-          <NuxtLink to="/about" class="text-white font-['DM Sans'] text-[20px] leading-none hover:text-white/80">
+          <NuxtLink to="#" class="text-white font-['DM Sans'] text-[20px] leading-none hover:text-white/80">
             About
           </NuxtLink>
-          <NuxtLink to="/#pricing" class="text-white font-['DM Sans'] text-[20px] leading-none hover:text-white/80">
+          <NuxtLink to="#" class="text-white font-['DM Sans'] text-[20px] leading-none hover:text-white/80">
             Pricing
           </NuxtLink>
         </nav>
 
         <NuxtLink
-          to="/sandbox"
+          to="#"
           class="lg:flex hidden justify-self-end flex items-center justify-center gap-[10px] px-[24px] py-[12px]
                  rounded-[8px] bg-[#F9A71E] text-[#1A1C3D]
                  text-[24px] font-semibold font-['Inter'] leading-none
@@ -45,8 +45,8 @@
 
     <div v-if="showMenu" class="lg:hidden flex flex-col items-center bg-[#42389E] text-white py-5">
       <NuxtLink to="/" class="py-2 text-[20px] font-['DM Sans']">Home</NuxtLink>
-      <NuxtLink to="/about" class="py-2 text-[20px] font-['DM Sans']">About</NuxtLink>
-      <NuxtLink to="/#pricing" class="py-2 text-[20px] font-['DM Sans']">Pricing</NuxtLink>
+      <NuxtLink to="#" class="py-2 text-[20px] font-['DM Sans']">About</NuxtLink>
+      <NuxtLink to="#" class="py-2 text-[20px] font-['DM Sans']">Pricing</NuxtLink>
     </div>
 
   </header>

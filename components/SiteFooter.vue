@@ -26,19 +26,19 @@
         <div class="md:col-span-3 order-2 md:order-none">
           <h3 class="mb-4 text-sm font-semibold text-slate-700">Resources</h3>
           <ul class="space-y-3 text-slate-600">
-            <li><NuxtLink to="/why-intellitoggle" class="hover:text-slate-900">Why IntelliToggle Is Different</NuxtLink></li>
-            <li><NuxtLink to="/support" class="hover:text-slate-900">Customer Support</NuxtLink></li>
-            <li><NuxtLink to="/terms" class="hover:text-slate-900">Terms &amp; Conditions</NuxtLink></li>
-            <li><NuxtLink to="/privacy" class="hover:text-slate-900">Privacy Policy</NuxtLink></li>
+            <li><NuxtLink to="#" class="hover:text-slate-900">Why IntelliToggle Is Different</NuxtLink></li>
+            <li><NuxtLink to="#" class="hover:text-slate-900">Customer Support</NuxtLink></li>
+            <li><NuxtLink to="#" class="hover:text-slate-900">Terms &amp; Conditions</NuxtLink></li>
+            <li><NuxtLink to="#" class="hover:text-slate-900">Privacy Policy</NuxtLink></li>
           </ul>
         </div>
 
         <div class="md:col-span-3 order-3 md:order-none">
           <h3 class="mb-4 text-sm font-semibold text-slate-700">Company</h3>
           <ul class="space-y-3 text-slate-600">
-            <li><NuxtLink to="/#pricing" class="hover:text-slate-900">Pricing</NuxtLink></li>
-            <li><NuxtLink to="/docs" class="hover:text-slate-900">Documentation</NuxtLink></li>
-            <li><NuxtLink to="/about" class="hover:text-slate-900">About Us</NuxtLink></li>
+            <li><NuxtLink to="#" class="hover:text-slate-900">Pricing</NuxtLink></li>
+            <li><NuxtLink to="#" class="hover:text-slate-900">Documentation</NuxtLink></li>
+            <li><NuxtLink to="#" class="hover:text-slate-900">About Us</NuxtLink></li>
           </ul>
         </div>
 

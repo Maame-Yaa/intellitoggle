@@ -104,7 +104,7 @@
         </div>
 
         <NuxtLink
-          to="/pricing"
+          to="#"
           class=" hidden sm:block rounded-md bg-[#F9A71E] px-5 py-2 text-[14px] font-semibold text-[#1A1C3D] shadow-sm hover:bg-[#f8b23a] w-[330px] text-center"
         >
           View Subscription Details
@@ -124,13 +124,13 @@
 
           <div class="flex flex flex-col md:flex-row items-center gap-3 md:justify-end">
             <NuxtLink
-              to="/sandbox"
+              to="#"
               class="w-full md:w-auto rounded-[8px] bg-[#F9A71E] px-5 py-2 text-[14px] font-semibold text-[#1A1C3D] hover:bg-[#f8b23a]"
             >
               Get Started
             </NuxtLink>
             <NuxtLink
-              to="/learn-more"
+              to="#"
               class="w-full md:w-auto rounded-[8px] border border-[#F9A71E] px-5 py-2 text-[14px] font-semibold text-[#F9A71E] hover:bg-[#F9A71E]/10"
             >
               Learn More
