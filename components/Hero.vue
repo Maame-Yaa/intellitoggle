@@ -20,7 +20,7 @@
         Feature flags built for Dart, ship faster, roll back
         safely, and scale with AI-powered delivery
       <br></br>
-      <span class="hidden sm:block mx-auto mt-8 max-w-[920px] text-[22px] sm:text-[26px] text-[#F9A71E] md:text-[32px] font-bold">
+      <span class="hidden sm:block mx-auto max-w-[920px] text-[22px] sm:text-[26px] text-[#F9A71E] md:text-[32px] font-bold">
         Starting at just $1/month
       </span>
       </p>
