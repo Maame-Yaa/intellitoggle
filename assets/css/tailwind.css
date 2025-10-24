@@ -32,4 +32,9 @@
   }
    .input { @apply h-10 w-full rounded-md border border-slate-300 bg-white/90 px-3 text-sm placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-indigo-500; }
   .btn-gradient { @apply inline-flex items-center justify-center rounded-md px-4 h-10 text-sm font-medium text-white shadow; }
+  .section { @apply py-[120px]; }               /* Figma global vertical rhythm */
+  .panel   { @apply rounded-2xl bg-white shadow-panel ring-1 ring-black/5; }
+  .pill    { @apply rounded-full px-4 py-2 text-sm font-semibold; }
+  .cta-yellow { @apply rounded-md bg-[#FDBA00] text-[#1A1C3D] font-semibold px-6 py-2.5 text-sm shadow-sm hover:bg-[#e0a800]; }
+  .cta-yellow-outline { @apply rounded-md border border-[#FDBA00] text-[#FDBA00] font-semibold px-6 py-2.5 text-sm hover:bg-[#FDBA00]/10; }
 }

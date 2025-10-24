@@ -22,7 +22,7 @@
       </div>
       <p class="mt-4 text-white/80">Starting at just $10/month.</p>
       <div class="mt-12 mx-auto max-w-5xl rounded-2xl bg-white p-4 shadow-2xl ring-1 ring-black/10">
-        <img src="/group-hero.svg" alt="Product preview" class="m-auto w-[70px] my-12 rounded-xl" />
+        <img src="/group-hero.svg" alt="Product preview" class="mx-auto w-full max-w-[860px] rounded-xl" />
       </div>
     </div>
   </section>
