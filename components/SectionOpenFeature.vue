@@ -1,11 +1,8 @@
 <template>
-  <section class="bg-[#EDECF6] p-[120px]">
-    <div
-      class="container flex justify-between items-center h-[618px] rounded-[8px] py-[120px]"
-    >
+  <section class="bg-[#EDECF6] lg:p-[120px]">
+    <div class="container flex flex-col md:flex-row justify-between items-center md:h-[618px] rounded-[8px] py-[120px]">
       <div
-        class="flex justify-center items-center w-[830px] h-[618px] bg-white rounded-[12px]
-               border border-[#42389E]/40 shadow-[0_0_10px_10px_rgba(0,0,0,0.05)]"
+        class="flex justify-center items-center w-full md:w-[830px] md:h-[618px] bg-white rounded-[12px] border border-[#42389E]/40 shadow-[0_0_10px_10px_rgba(0,0,0,0.05)]"
         style="padding: 77px 71px;"
       >
         <img
@@ -17,7 +14,7 @@
         />
       </div>
 
-      <div class="max-w-[575px]">
+      <div class="max-w-[575px] mt-6 md:mt-0">
         <h3
           class="text-[32px] font-semibold leading-[1.25] text-[#0E121B]"
           style="font-family: var(--font-inter, ui-sans-serif, system-ui);"

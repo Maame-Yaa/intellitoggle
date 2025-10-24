@@ -7,7 +7,7 @@
       What Is IntelliToggle
     </h2>
 
-    <div class="mt-[48px] grid items-center gap-12 md:grid-cols-[1fr_830px]">
+    <div class="mt-[48px] grid items-center gap-12 xl:grid-cols-[1fr_830px]">
       <div class="max-w-[560px]">
         <h3
           class="text-[32px] font-semibold leading-[1.25] text-[#0E121B]"
@@ -35,7 +35,6 @@
       <div class="mx-auto">
         <div
           class="rounded-2xl bg-white p-0 ring-1 ring-black/10 shadow-[0_10px_30px_rgba(0,0,0,0.08)]"
-          style="width: 830px; height: 618px;"
         >
           <img
             src="/what-is-intellitoggle-frame.png"

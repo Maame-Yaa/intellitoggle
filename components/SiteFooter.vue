@@ -3,10 +3,16 @@
     <div class="container py-16 md:py-20">
       <div class="grid gap-10 md:gap-8 md:grid-cols-12 items-start">
         <div class="md:col-span-4">
-          <NuxtLink to="/" class="flex items-center gap-3">
-            <img src="/solid-icon-purple.svg" alt="IntelliToggle" class="h-8 w-auto" />
-            <span class="sr-only">IntelliToggle</span>
-          </NuxtLink>
+          <NuxtLink to="/" class="flex items-center gap-3 justify-self-start">
+          <img
+            src="/solid-icon-purple.svg"
+            alt="IntelliToggle"
+            style="width:54.5px;height:50.8px"
+          />
+          <span class="text-purple font-bold text-[24px] font-['Merriweather Sans'] leading-none">
+            IntelliToggle
+          </span>
+        </NuxtLink>
 
           <p class="mt-4 max-w-xs text-slate-600">
             IntelliToggle is built by AORTEM, a company focused on powering scalable,
