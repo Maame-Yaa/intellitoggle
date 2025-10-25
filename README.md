@@ -34,7 +34,7 @@ npm run dev
 - **Vue.js / Nuxt.js**: For building the front-end
 - **Vercel**: For hosting and deployment
 - **Tailwind CSS**: For styling the application
-- **AI Integration**: For intelligent feature delivery and rollbacks
+- **AI Integration**: For intelligent feature delivery and rollbacks```
 
 ---
 
