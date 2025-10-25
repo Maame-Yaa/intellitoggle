@@ -21,12 +21,11 @@ Explore the live demo hosted on Vercel.
 
 Clone the repo and install dependencies:
 
-```bash
-git clone https://github.com/yourusername/intellitoggle.git
-cd intellitoggle
-npm install
-npm run dev
 
+`git clone https://github.com/yourusername/intellitoggle.git`
+`cd intellitoggle`
+`npm install`
+`npm run dev`
 
 ## Built With
 
