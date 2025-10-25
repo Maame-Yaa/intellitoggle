@@ -1,0 +1,3 @@
+- The site is responsive, however, mobile view is more compact than actual site
+- Similar fonts where used, such as Inter and Satoshi, but sizes were slightly different in certain areas
+- Tradeoffs included using relative sizing to complete assignment on time. With time, actual dimensions, specified for each veiwport, will show more similarities

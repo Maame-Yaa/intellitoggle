@@ -1,75 +1,48 @@
-# Nuxt Minimal Starter
+# IntelliToggle
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A feature flag platform built for Dart developers, enabling faster, safer rollouts with AI-powered delivery.
 
-## Setup
+## 🔗 [Live Demo](https://intellitoggle-omega.vercel.app/)
 
-Make sure to install dependencies:
+Explore the live demo hosted on Vercel.
+
+---
+
+## Features
+
+- AI-powered feature delivery
+- Easy rollbacks for safe deployments
+- Dart-native integration
+- Real-time preview
+
+---
+
+## Installation
+
+Clone the repo and install dependencies:
 
 ```bash
-# npm
+git clone https://github.com/yourusername/intellitoggle.git
+cd intellitoggle
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
 npm run dev
 
-# pnpm
-pnpm dev
 
-# yarn
-yarn dev
+## Built With
 
-# bun
-bun run dev
-```
+- **Dart**: The core language for building the feature flag system
+- **Vue.js / Nuxt.js**: For building the front-end
+- **Vercel**: For hosting and deployment
+- **Tailwind CSS**: For styling the application
+- **AI Integration**: For intelligent feature delivery and rollbacks
 
-## Production
+---
 
-Build the application for production:
 
-```bash
-# npm
-npm run build
+## 📝 Notes
 
-# pnpm
-pnpm build
+- The project is hosted on Vercel. You can easily deploy it using their platform.
+- The project taught me the similarities between MERN and the Nuxt + Vue + Tailwind stack, and how the latter stack makes routing and styling much easier
+- Tradeoff included using relative sizing to complete on time.
+- What can be done with more time is make the site less compact on mobile, add more pages and more content for usable links
 
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
