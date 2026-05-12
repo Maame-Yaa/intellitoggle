@@ -1,47 +1,65 @@
-# IntelliToggle
+# IntelliToggle Landing Page
 
-A feature flag platform built for Dart developers, enabling faster, safer rollouts with AI-powered delivery.
+A responsive marketing landing page for [IntelliToggle](https://www.aortem.io/), a Dart-native feature flagging platform by Aortem. Built as a frontend developer technical assessment for [Aortem](https://www.aortem.io/).
 
-## 🔗 [Live Demo](https://intellitoggle-omega.vercel.app/)
+**[Live Demo](https://intellitoggle-omega.vercel.app/)**
 
-Explore the live demo hosted on Vercel.
+## Tech stack
 
----
+- **Framework:** Vue 3 + Nuxt 3
+- **Styling:** Tailwind CSS
+- **Fonts:** Google Fonts (Inter, DM Sans, Merriweather Sans)
+- **Deployment:** Vercel
 
-## Features
+## What I built
 
-- AI-powered feature delivery
-- Easy rollbacks for safe deployments
-- Dart-native integration
-- Real-time preview
+A single-page marketing site composed of 15 Vue components:
 
----
+- **Hero** with gradient background, CTA buttons, and promotional pricing
+- **Logo strip** for partner/client logos
+- **Product sections** explaining feature flags, OpenFeature integration, and AI-powered delivery
+- **Feature comparison** table
+- **Pricing section** with mobile and desktop layouts (card view on mobile, overview on desktop)
+- **CTA** and footer sections
+- **Responsive layout** with mobile breakpoints and conditional rendering (`v-show` for mobile-hidden sections)
 
-## Installation
+## Project structure
 
-Clone the repo and install dependencies:
+```
+├── pages/
+│   └── index.vue              # Page composition (all sections)
+├── components/
+│   ├── Hero.vue               # Hero section with gradient and CTAs
+│   ├── SiteHeader.vue         # Navigation header
+│   ├── SiteFooter.vue         # Footer
+│   ├── Pricing.vue            # Pricing cards (mobile + desktop)
+│   ├── FeatureCompare.vue     # Feature comparison table
+│   ├── ControlsSection.vue    # Product controls overview
+│   ├── ControlCard.vue        # Individual control card
+│   ├── SectionWhat.vue        # "What is IntelliToggle" section
+│   ├── SectionOpenFeature.vue # OpenFeature integration section
+│   ├── DartAI.vue             # AI features section
+│   ├── DartAICard.vue         # Individual AI feature card
+│   ├── WhyTeams.vue           # "Why teams choose" section
+│   ├── LogoStrip.vue          # Partner logos
+│   ├── CTA.vue                # Call to action
+│   └── Button.vue             # Reusable button component
+├── layouts/
+│   └── default.vue            # Header + main + footer shell
+├── nuxt.config.ts
+├── tailwind.config.js
+└── package.json
+```
 
+## Running locally
 
-`git clone https://github.com/yourusername/intellitoggle.git`
-`cd intellitoggle`
-`npm install`
-`npm run dev`
+```bash
+git clone https://github.com/Maame-Yaa/intellitoggle.git
+cd intellitoggle
+npm install
+npm run dev
+```
 
-## Built With
+## Context
 
-- **Dart**: The core language for building the feature flag system
-- **Vue.js / Nuxt.js**: For building the front-end
-- **Vercel**: For hosting and deployment
-- **Tailwind CSS**: For styling the application
-- **AI Integration**: For intelligent feature delivery and rollbacks```
-
----
-
-
-## 📝 Notes
-
-- The project is hosted on Vercel. You can easily deploy it using their platform.
-- The project taught me the similarities between MERN and the Nuxt + Vue + Tailwind stack, and how the latter stack makes routing and styling much easier
-- Tradeoff included using relative sizing to complete on time.
-- What can be done with more time is make the site less compact on mobile, add more pages and more content for usable links
-
+This was a frontend assessment submission for Aortem. The task was to build the marketing page for their IntelliToggle product. I was hired and went on to work as a Frontend Software Engineer at Aortem, contributing to their SaaS admin platform with Vue 3 and Nuxt 3.
